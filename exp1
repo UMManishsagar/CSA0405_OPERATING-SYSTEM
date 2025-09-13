@@ -4,8 +4,8 @@
 int main() {
     pid_t pid, ppid;
     
-    pid = getpid();   // get current process ID
-    ppid = getppid(); // get parent process ID
+    pid = getpid();   
+    ppid = getppid(); 
     
     printf("Current Process ID: %d\n", pid);
     printf("Parent Process ID: %d\n", ppid);
